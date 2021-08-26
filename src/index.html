@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebMovie</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Cinematix</a>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#main">Search Movie</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="jumbotron py-2 d-flex justify-content-center">
+            <div class="container row vh-100 px-0 justify-content-md-beetwen justify-content-center">
+                <div class="col-12 col-md-7 px-5 align-self-center">
+                    <h3>Cinematix</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Possimus id sed voluptatibus nisi. Ipsa, iusto. Quasi accusantium 
+                        vel blanditiis voluptatum dignissimos, vero, nulla autem amet, facere 
+                        dicta ullam officiis reiciendis.</p>
+                </div>
+                <div class="d-none d-md-block col-md-5 align-self-center">
+                    <img src="../src/assets/img/poster.jpg" alt="gambar" class="w-75">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <section class="movie-container text-center my-5">
+            <div class="container mx-auto">
+                <h2>Find your favorite movie</h2>
+                <div class="input-group w-50 my-4 mx-auto">
+                    <input class="form-control" type="text" name="search-keyword" placeholder="Movie Title">
+                    <div class="input-group-append">
+                        <button class="btn btn-search border-primary text-primary" type="submit" name="btn-search">Cari</button>
+                    </div>
+                </div>
+            </div>
+            <movie-list class="px-4 mx-auto my-5 row justify-content-center"></movie-list>
+        </section>
+        <section class="row m-auto bg-dark text-light ">
+            <div class="col-12 col-sm-6 col-md-5 p-5">
+                <h3>Cinematix</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, iure incidunt fugit nesciunt excepturi deserunt, inventore, dicta quaerat praesentium enim quasi. Enim expedita asperiores sint, quidem totam quod hic dolores.</p>
+                <div class="icons d-flex justify-content-center justify-content-sm-start">
+                    <img src="../src/assets/icons/facebook.svg" alt="fb-icon">
+                    <img src="../src/assets/icons/instagram.svg" alt="ig-icon">
+                    <img src="../src/assets/icons/twitter.svg" alt="tw-icon">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 ml-auto align-self-center text-center my-5">
+                <blockquote class="blockquote">
+                    <p class="font-italic">"See the world from movie"</p>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark">
+        <p>Cinematix &#169; 2021, Yeremia Wijaya</p>
+    </footer>
+</body>
+</html>
